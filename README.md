@@ -133,5 +133,19 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
   <img width="70%" alt="Screenshot 2024-10-13 at 8 39 49 AM" src="https://github.com/user-attachments/assets/51ca1f11-3824-4ce0-8461-e1507b77e3ac">
 <img width="70%" alt="Screenshot 2024-10-13 at 8 41 47 AM" src="https://github.com/user-attachments/assets/f159a38c-6a9f-466a-adcb-dede0810ab54">
+</p>
+<p>
+  After enabling the extension
+</p>
+<p>
+  <img width="1512" alt="Screenshot 2024-10-13 at 5 03 38 PM" src="https://github.com/user-attachments/assets/53ab9874-6719-40ef-a9bb-46d944319fbe">
+</p>
+<p>
+  15. From: C:\inetpub\wwwroot\osTicket\include<br>
+  - Find "ost-sampleconfig.php" file<br>
+  - Rename it to "ost-config.php"
+</p>
+<p>
+  <img width="70%" alt="Screenshot 2024-10-13 at 5 07 49 PM" src="https://github.com/user-attachments/assets/e9af7bf3-513c-40d7-83ea-550a259affd9">
 
 </p>
