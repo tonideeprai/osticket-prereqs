@@ -110,5 +110,28 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
  13. Load the osTicket site<br>
- - In ISS, GO to sites > Default Web Site > osTicket > click 'Browse *:80 (http) 
+ - In IIS, GO to sites > Default Web Site > osTicket > click 'Browse *:80 (http) 
+</p>
+<p>
+  <img width="70%" alt="Screenshot 2024-10-13 at 8 19 57 AM" src="https://github.com/user-attachments/assets/163d8363-8ace-4ddc-a5ed-e89c5ba94ed5">
+</p>
+<p>
+  Note that some extensions are not enabled
+</p>
+<p>
+  <img width="70%" alt="Screenshot 2024-10-13 at 8 23 13 AM" src="https://github.com/user-attachments/assets/b9020b5a-e637-4f54-852b-b3e0957d611f">
+</p>
+<p>
+  14. Go back to IIS and double-click PHP Manager in Sites -> Default -> osTicket<br>
+  Click “Enable or disable an extension”<br>
+  Find these extensions, right-click > Enable<br>
+ - Enable: php_imap.dll<br>
+ - Enable: php_intl.dll<br>
+ - Enable: php_opcache.dll<br>
+ Refresh the osTicket site in your browser, observe the changes<br>
+</p>
+<p>
+  <img width="70%" alt="Screenshot 2024-10-13 at 8 39 49 AM" src="https://github.com/user-attachments/assets/51ca1f11-3824-4ce0-8461-e1507b77e3ac">
+<img width="70%" alt="Screenshot 2024-10-13 at 8 41 47 AM" src="https://github.com/user-attachments/assets/f159a38c-6a9f-466a-adcb-dede0810ab54">
+
 </p>
