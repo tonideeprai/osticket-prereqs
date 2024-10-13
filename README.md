@@ -24,8 +24,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
- <b>Install / Enable IIS in Windows WITH CGI</b>  
-
 <p>
   1. Go to Control Panel > Under Programs, clicked "Uninstalled Program, then clicked "Turn Windows features on or off"
 </p>
@@ -85,8 +83,32 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
  9. Open IIS as an Admin<br>
- Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe) and reload IIS (Open IIS, Stop and Start the server)
 </p>
 <p>
- 
+ <img width="70%" alt="Screenshot 2024-10-12 at 7 43 25 PM" src="https://github.com/user-attachments/assets/fade4bd9-0c71-452d-9955-d7ac15e54e6c">
+</p>
+<p>
+ 10. Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe) and reload IIS (Open IIS, Stop and Start the server)
+</p>
+<p>
+ <img width="70%" alt="Screenshot 2024-10-12 at 7 48 21 PM" src="https://github.com/user-attachments/assets/dc507a81-cc30-4a83-abad-1315ee34d304">
+<img width="70%" alt="Screenshot 2024-10-12 at 7 50 01 PM" src="https://github.com/user-attachments/assets/dd23bd8d-668f-4480-bd81-f0aea99c315e">
+<img width="70%" alt="Screenshot 2024-10-12 at 7 52 41 PM" src="https://github.com/user-attachments/assets/855832fe-e2a9-4167-a734-d8395bdf9f9e">
+<img width="70%" alt="Screenshot 2024-10-12 at 7 57 34 PM" src="https://github.com/user-attachments/assets/7ea31853-7658-4860-b5ee-1a00ce754016">
+</p>
+<p>
+ 11. From the “osTicket-Installation-Files” folder, Extract “osTicket-v1.15.8.zip” and copy the “upload” folder inside it into “c:\inetpub\wwwroot”<br>
+  Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”<br>
+</p>
+<p>
+ <img width="70%" alt="Screenshot 2024-10-12 at 8 19 25 PM" src="https://github.com/user-attachments/assets/22e7fdd5-8622-4ea3-9d47-6b5a4e60174a">
+<img width="70%" alt="Screenshot 2024-10-12 at 8 25 08 PM" src="https://github.com/user-attachments/assets/2ff14406-4345-49e6-8298-0966d4127662">
+<img width="70%" alt="Screenshot 2024-10-12 at 8 37 47 PM" src="https://github.com/user-attachments/assets/e9bfba7f-c48c-4600-8759-8dc50f4ca7d0">
+</p>
+<p>
+ 12. Restart IIS again
+</p>
+<p>
+ 13. Load the osTicket site<br>
+ - In ISS, GO to sites > Default Web Site > osTicket > click 'Browse *:80 (http) 
 </p>
