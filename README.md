@@ -204,3 +204,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
   Click Install
 </p>
+<p>
+  Congratulation! You've succesfully intalled osTIcket.<br>
+  If you want to dive into how to use it I have more <a href="www.google.com">practice labs</a> here.
+</p>
+<p>
+  <img width="70%" alt="Screenshot 2024-10-14 at 2 31 19 PM" src="https://github.com/user-attachments/assets/341d8ab1-1923-435e-b00d-55e6d6b2e074">
+</p>
