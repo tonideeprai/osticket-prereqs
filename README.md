@@ -138,7 +138,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   After enabling the extension
 </p>
 <p>
-  <img width="1512" alt="Screenshot 2024-10-13 at 5 03 38 PM" src="https://github.com/user-attachments/assets/53ab9874-6719-40ef-a9bb-46d944319fbe">
+  <img width="70%" alt="Screenshot 2024-10-13 at 5 03 38 PM" src="https://github.com/user-attachments/assets/53ab9874-6719-40ef-a9bb-46d944319fbe">
 </p>
 <p>
   15. From: C:\inetpub\wwwroot\osTicket\include<br>
@@ -147,5 +147,60 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
   <img width="70%" alt="Screenshot 2024-10-13 at 5 07 49 PM" src="https://github.com/user-attachments/assets/e9af7bf3-513c-40d7-83ea-550a259affd9">
-
+</p>
+<p>
+  16. Right-click "ost-config.php" > Properties > Security > Advance > Disable inheritance > Remove all inherited permissions from this bject.
+</p>
+<p>
+  <img width="70%" alt="Screenshot 2024-10-14 at 1 24 44 PM" src="https://github.com/user-attachments/assets/1270b40a-eb2c-43d6-bda8-e8f1a5fc3883">
+</p>
+<p>
+  After that, click Add > Select a principal > type "everyone" > click Checknames > then click OK
+</p>
+<p>
+  <img width="70%" alt="Screenshot 2024-10-14 at 1 30 32 PM" src="https://github.com/user-attachments/assets/871bd3fb-6999-4fb3-9b1d-ec842ad25a5b">
+</p>
+<p>
+  Under Basic permisions, Check Full controll box
+</p>
+<p>
+  <img width="70%" alt="Screenshot 2024-10-14 at 1 32 35 PM" src="https://github.com/user-attachments/assets/bf15fa2d-52c1-40a0-ae5c-2487d17526b9">
+<img width="70%" alt="Screenshot 2024-10-14 at 1 33 03 PM" src="https://github.com/user-attachments/assets/a4540d87-52bf-4484-b203-02512292f474">
+</p>
+<p>
+  17. From the “osTicket-Installation-Files” folder, install HeidiSQL.
+</p>
+<p>
+  <img width="70%" alt="Screenshot 2024-10-14 at 1 48 44 PM" src="https://github.com/user-attachments/assets/6b4bb84a-6885-4876-aee2-ae3a62c6c589">
+<img width="70%" alt="Screenshot 2024-10-14 at 1 49 57 PM" src="https://github.com/user-attachments/assets/679d0dcd-7e66-4498-86fd-159a46e367a5">
+</p>
+<p>
+  18. In HeidiSQL, create a new session<br>
+  - CLick New > type in your password from Step 8. > Click Open
+  - Right-Click on Unnamed > Create new > Database, name it "osTicket"
+</p>
+<p>
+  <img width="70%" alt="Screenshot 2024-10-14 at 1 59 27 PM" src="https://github.com/user-attachments/assets/ade1e306-003d-4328-a514-9041bbb5ff60">
+<img width="70%" alt="Screenshot 2024-10-14 at 1 59 45 PM" src="https://github.com/user-attachments/assets/940fc5c5-8aac-447b-a96c-4dc08b64183f">
+<img width="70%" alt="Screenshot 2024-10-14 at 2 00 23 PM" src="https://github.com/user-attachments/assets/c83de82d-9820-4be7-9a24-c959ab030cd6">
+<img width="70%" alt="Screenshot 2024-10-14 at 2 00 48 PM" src="https://github.com/user-attachments/assets/f951abed-cf5c-45b3-b58b-26d59ecd725e">
+<img width="70%" alt="Screenshot 2024-10-14 at 2 01 57 PM" src="https://github.com/user-attachments/assets/f0d80b18-e206-42e3-af6b-4c3acca276ff">
+</p>
+<p>Open osTicket Site (refer back to step 13) and continue Setting up osTicket in the browser (click Continue)<br>
+- Name Helpdesk<br>
+- Default email (receives email from customers)
+</p>
+<p>
+  <img width="70%" alt="Screenshot 2024-10-14 at 2 17 40 PM" src="https://github.com/user-attachments/assets/6b35b5aa-85ea-408a-a4b8-a4d14a644f38">
+</p>
+<p>
+  Under the Database Settigns
+  - for mySQL Database type the database we made on Step 18.
+  - for mySQl Username and Password refer to your Step 8. 
+</p>
+<p>
+  <img width="70%" alt="Screenshot 2024-10-14 at 2 25 39 PM" src="https://github.com/user-attachments/assets/6d126fc1-8e08-46ec-9169-a3d4cf30cac4">
+</p>
+<p>
+  Click Install
 </p>
