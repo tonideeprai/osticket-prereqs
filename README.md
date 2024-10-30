@@ -209,6 +209,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
   This lab is the first part of my Implementing a Help Desk Ticketing System (osTicket) labs.<br>
-  <a href="google.com">Part 2</a><br>
-  <a href="google.com">Part 3</a>
+  <a href="https://github.com/tonideeprai/osticket-config">Part 2 (osTicket Configuration)</a><br>
+  <a href="https://github.com/tonideeprai/osticket-lifecycle">Part 3 (Day-to-day osTicket lifecycle)</a>
 </p>
