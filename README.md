@@ -207,6 +207,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
   <img width="90%" alt="Screenshot 2024-10-14 at 2 31 19 PM" src="https://github.com/user-attachments/assets/341d8ab1-1923-435e-b00d-55e6d6b2e074">
 </p>
+<hr>
 <p>
   This lab is the first part of my Implementing a Help Desk Ticketing System (osTicket) labs.<br>
   <a href="https://github.com/tonideeprai/osticket-config">Part 2 (osTicket Configuration)</a><br>
